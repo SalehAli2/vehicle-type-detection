@@ -1,0 +1,12 @@
+torch==2.7.1
+torchvision==0.22.1
+torchaudio==2.7.1
+numpy==1.26.4
+pandas==2.2.3
+matplotlib==3.10.3
+scikit-learn==1.6.1
+Pillow
+tqdm
+jupyter
+streamlit
+roboflow

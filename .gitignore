@@ -1,0 +1,27 @@
+# Virtual environment
+myenv/
+
+# Data
+data/
+
+# Models
+models/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Trained model files
+*.pth
+*.pt
+
+# Output images
+confusion_matrix.png
+training_history.png
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
