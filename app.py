@@ -5,7 +5,7 @@ from PIL import Image
 from model import build_model
 
 # ---- Config ----
-CLASS_LABELS = ["bus", "car", "motorcycle", "truck"]
+CLASS_LABELS = ['Ambulance', 'Barge', 'Bicycle', 'Boat', 'Bus', 'Car', 'Cart', 'Caterpillar', 'Helicopter', 'Limousine', 'Motorcycle', 'Segway', 'Snowmobile', 'Tank', 'Taxi', 'Truck', 'Van']
 MODEL_PATH = "models/best_model.pth"
 DEVICE = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -49,7 +49,3 @@ if uploaded_file is not None:
 
     st.markdown(f"### Prediction: **{predicted_class}**")
     st.markdown(f"### Confidence: **{confidence:.2f}%**")
-
-    st.write("#### All Probabilities:")
-    for label, prob in zip(CLASS_LABELS, probabilities):
-        st.progress(float(prob), text=f"{label}: {prob*100:.2f}%")
