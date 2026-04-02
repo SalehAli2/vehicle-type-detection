@@ -5,12 +5,27 @@ A deep learning web app that classifies vehicle types from images using **Mobile
 ## 🔗 Live Demo
 👉 [Click here to try the app](https://vehicle-type-detection-fwh6qjajw6fh8axxdjscre.streamlit.app/)
 
-## 📌 Classes
-The model can detect the following vehicle types:
+## 📌 Supported Classes
+
+This model can detect the following **17 vehicle types**:
+
+- 🚑 Ambulance
+- 🚤 Barge
+- 🚲 Bicycle
+- ⛴️ Boat
 - 🚌 Bus
 - 🚗 Car
+- 🛒 Cart
+- 🚜 Caterpillar
+- 🚁 Helicopter
+- 🛎️ Limousine
 - 🏍️ Motorcycle
+- 🛹 Segway
+- ❄️ Snowmobile
+- 🛡️ Tank
+- 🚕 Taxi
 - 🚛 Truck
+- 🚐 Van
 
 ## 🛠️ Tech Stack
 - Python
