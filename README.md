@@ -48,32 +48,15 @@ vehicle-type-detection/
     └── best_model.pth   # Trained model
 ```
 
-## 🚀 Run Locally
-
-**1. Clone the repo**
-```bash
-git clone https://github.com/SalehAli2/vehicle-type-detection
-cd vehicle-type-detection
-```
-
-**2. Install dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-**3. Run the app**
-```bash
-streamlit run app.py
-```
 
 ## 📊 Results
 | Metric | Value |
 |--------|-------|
-| Train Accuracy | 97%+ |
-| Validation Accuracy | 87.5% |
-| Test Accuracy | 79% |
+| Train Accuracy | 86% |
+| Validation Accuracy | 85% |
+| Test Accuracy | 84% |
 
 ## 📸 Dataset
-Dataset sourced from [Roboflow](https://roboflow.com) with 420 training images across 4 vehicle classes.
+Dataset sourced from [Roboflow](https://roboflow.com) with 29000 training images across 17 vehicle classes.
 
 
