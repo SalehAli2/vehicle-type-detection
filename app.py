@@ -28,7 +28,7 @@ def preprocess(image):
     return transform(image).unsqueeze(0).to(DEVICE)
 
 # ---- UI ----
-st.title("🚗 Vehicle Type Detection")
+st.title("🚗 Vehicle Type Classification")
 st.write("Upload an image and the model will classify the vehicle type.")
 
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
